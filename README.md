@@ -30,7 +30,7 @@ Outside of those two points, behavior is intended to stay aligned with the origi
 
 ## Install
 
-[Chrome extension file (AUN POR PONER)](chrome://blank/)
+[Chrome Web Store (XtoGIF)](https://chromewebstore.google.com/detail/kihblnafcpcfgfofhlifgeebnkkchihf/preview?hl=es&authuser=0)
 
 ## License
 
