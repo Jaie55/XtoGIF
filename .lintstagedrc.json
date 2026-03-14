@@ -1,0 +1,18 @@
+{
+  "*.{css,scss,sass}": ["prettier --write"],
+  "*.{js,cjs,mjs,jsx,ts,tsx}": [
+    "eslint --fix",
+    "prettier --write",
+    "yarn check:envfile sample.env",
+    "yarn ci:all --findRelatedTests --passWithNoTests --bail 5",
+    "yarn locale:extract --check"
+  ],
+  "*sample.env": ["yarn check:envfile sample.env"],
+  "*.md": ["prettier --write"],
+  "*.json": ["prettier --write"],
+  "CHANGELOG.md": ["yarn check:changelog"],
+  "*.{po,pot}": ["yarn locale:check"],
+  "*.po": ["yarn check:translations"],
+  "flag.d.ts": ["yarn check:flags"],
+  "*.{yml, yaml}": ["prettier --write"]
+}
