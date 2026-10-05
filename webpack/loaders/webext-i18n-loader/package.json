@@ -19,7 +19,7 @@
     "webpack": "^5"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.0",
+    "@babel/core": "^8.0.6",
     "@babel/preset-env": "^7.26.0",
     "@types/gettext-parser": "^4.0.4",
     "@types/jest": "^29.5.14",
